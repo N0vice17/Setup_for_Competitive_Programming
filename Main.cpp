@@ -1,4 +1,5 @@
 // JAYSHREERAM
+// JAYSHREEGANESH
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int
@@ -11,6 +12,11 @@ using namespace std;
 const ll mod=1000000007;
 const ll mod1=1000000009;
 const ll p=101;
+/*
+    Nobody Believes in You, You have Lost Again Again and Again.The Lights are cut off But you are still looking at your
+    dreams reviewing it every day and say to yourself:
+                                "IT IS NOT OVER UNTIL I REACH EXPERT"
+*/
 template <typename T> void print(vector<T>arr){cerr<<"[ ";for(auto it:arr){cerr<<it<<" ";}cerr<<"]"<<nline;}
 template <typename T> void print(T var){cerr<<var<<nline;}
 template <typename T> void print(vector<vector<T>> arr){cerr<<"start"<<nline;for(int i=0;i<arr.size();i++){for(auto it:arr[i]){cerr<<it<<" ";}cerr<<nline;}cerr<<"end"<<nline;}
@@ -21,7 +27,7 @@ ll modu_mul(ll a,ll b,ll m){return (a % m * b % m) % m;}
 ll expo(ll a,ll b){ll ans=1,base=a;while(b>0){if(b%2==0){base*=base;b=b/2;}else{ans=ans*base;b=b-1;}}return ans;}
 ll gcd(ll a,ll b){if(b==0){return a;}return gcd(b,a%b);}
 vector<bool> sieve(ll n){vector<bool>arr(n+1,1);arr[0]=0;arr[1]=0;for(int i=2;i*i<=n;i++){if(arr[i]){for(int j=i*2;j<=n;j+=i){arr[j]=0;}}}return arr;}
-void joyshreeram(){
+void joyshreeram(){   
     
 }
 int main(){
